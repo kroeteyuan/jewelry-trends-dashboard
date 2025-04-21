@@ -1,12 +1,16 @@
-# domestic-violence-dashboard
-This is a dashboard based on domestic violence data
+# 💍 Jewelry Shopping Trends Dashboard
 
-the tool to create the dashboard
-- Python / Pandas
-- Apache Airflow
-- Google Cloud Platform (BigQuery, Cloud Storage)
-- dbt / Spark
-- Looker Studio / Superset
-- Terraform
+An interactive dashboard to explore global interest in jewelry categories such as diamond rings, pearl necklaces, and jade bracelets from 2018 to 2024.
 
-The original data is coming from worldbank.
+## 🔍 Features
+- 📈 Time-series trend comparison using Google Trends
+- 🌍 Regional interest mapping (coming soon)
+- ☁️ Built with Streamlit + pytrends + Plotly
+- ✨ Minimalist, beautiful dashboard ready for your resume or portfolio
+
+## 🚀 Quick Start
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+
